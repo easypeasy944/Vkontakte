@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-
+@class FTNew;
 @interface FTPhoto : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * height;
 @property (nonatomic, retain) NSString * path;
 @property (nonatomic, retain) NSNumber * width;
-@property (nonatomic, retain) NSManagedObject *currentNew;
-@property (nonatomic, retain) NSManagedObject *currentNewForMainPost;
+@property (nonatomic, retain) FTNew *currentNew;
+@property (nonatomic, retain) FTNew *currentNewForMainPost;
 
 @end

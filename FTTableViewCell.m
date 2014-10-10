@@ -6,18 +6,19 @@
 //  Copyright (c) 2014 FT. All rights reserved.
 //
 
+
 #import "FTTableViewCell.h"
 
 @implementation FTTableViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self = [[[NSBundle mainBundle] loadNibNamed:@"FTTableViewCell" owner:self options:nil] firstObject];
+    }
+    return self;
 }
 
 @end
+

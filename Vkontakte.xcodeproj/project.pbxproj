@@ -8,12 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		4F27CB5819E801E3005D9398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB5719E801E3005D9398 /* main.m */; };
-		4F27CB5B19E801E3005D9398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB5A19E801E3005D9398 /* AppDelegate.m */; };
-		4F27CB5E19E801E3005D9398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB5D19E801E3005D9398 /* ViewController.m */; };
-		4F27CB6119E801E3005D9398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CB5F19E801E3005D9398 /* Main.storyboard */; };
 		4F27CB6319E801E3005D9398 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CB6219E801E3005D9398 /* Images.xcassets */; };
 		4F27CB6619E801E3005D9398 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CB6419E801E3005D9398 /* LaunchScreen.xib */; };
 		4F27CB7219E801E4005D9398 /* VkontakteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB7119E801E4005D9398 /* VkontakteTests.m */; };
+		4F27CB7D19E80202005D9398 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB7C19E80202005D9398 /* FTAppDelegate.m */; };
+		4F27CB8019E80242005D9398 /* FTAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB7F19E80242005D9398 /* FTAccessToken.m */; };
+		4F27CB8319E802AD005D9398 /* FTActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB8219E802AD005D9398 /* FTActivityCell.m */; };
+		4F27CB8519E802ED005D9398 /* FTActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CB8419E802ED005D9398 /* FTActivityCell.xib */; };
+		4F27CB8819E8031A005D9398 /* FTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB8719E8031A005D9398 /* FTDetailViewController.m */; };
+		4F27CB8B19E80386005D9398 /* FTNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB8A19E80386005D9398 /* FTNewsViewController.m */; };
+		4F27CB8E19E804AC005D9398 /* FTStartPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB8D19E804AC005D9398 /* FTStartPage.m */; };
+		4F27CB9119E804F4005D9398 /* FTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB9019E804F4005D9398 /* FTTableViewCell.m */; };
+		4F27CB9319E8050F005D9398 /* FTTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CB9219E8050F005D9398 /* FTTableViewCell.xib */; };
+		4F27CB9619E80543005D9398 /* FTJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB9519E80543005D9398 /* FTJSONParser.m */; };
+		4F27CB9919E805EA005D9398 /* FTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB9819E805EA005D9398 /* FTDataManager.m */; };
+		4F27CB9C19E8066C005D9398 /* FTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB9B19E8066C005D9398 /* FTLoginViewController.m */; };
+		4F27CB9F19E806EB005D9398 /* FTServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CB9E19E806EB005D9398 /* FTServerManager.m */; };
+		4F27CBA519E807A4005D9398 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CBA219E807A4005D9398 /* like.png */; };
+		4F27CBA619E807A4005D9398 /* start_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CBA319E807A4005D9398 /* start_picture.png */; };
+		4F27CBA719E807A4005D9398 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CBA419E807A4005D9398 /* placeholder.png */; };
+		4F27CBAA19E8081E005D9398 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CBA819E8081E005D9398 /* Model.xcdatamodeld */; };
+		4F27CBAD19E80A8A005D9398 /* FTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CBAC19E80A8A005D9398 /* FTPhoto.m */; };
+		4F27CBB019E80A8B005D9398 /* FTNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27CBAF19E80A8B005D9398 /* FTNew.m */; };
+		4F27CBB219E80ECD005D9398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F27CBB119E80ECD005D9398 /* Main.storyboard */; };
+		4F27CBB519E810F3005D9398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F27CBB419E810F3005D9398 /* UIKit.framework */; };
+		4F27CBB719E81105005D9398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F27CBB619E81105005D9398 /* Foundation.framework */; };
+		4F27CBB919E81149005D9398 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F27CBB819E81149005D9398 /* CoreGraphics.framework */; };
+		E73ECA5FACA6F1FE2E678269 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49955DE2FC935CF49FE38F5F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +48,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8AC382D0FD89D6E3B386AB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		49955DE2FC935CF49FE38F5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F27CB5219E801E3005D9398 /* Vkontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vkontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F27CB5619E801E3005D9398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F27CB5719E801E3005D9398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F27CB5919E801E3005D9398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F27CB5A19E801E3005D9398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F27CB5C19E801E3005D9398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F27CB5D19E801E3005D9398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4F27CB6019E801E3005D9398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F27CB6219E801E3005D9398 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F27CB6519E801E3005D9398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F27CB6B19E801E4005D9398 /* VkontakteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VkontakteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F27CB7019E801E4005D9398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F27CB7119E801E4005D9398 /* VkontakteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VkontakteTests.m; sourceTree = "<group>"; };
+		4F27CB7B19E80202005D9398 /* FTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTAppDelegate.h; path = ../FTAppDelegate.h; sourceTree = "<group>"; };
+		4F27CB7C19E80202005D9398 /* FTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTAppDelegate.m; path = ../FTAppDelegate.m; sourceTree = "<group>"; };
+		4F27CB7E19E80242005D9398 /* FTAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTAccessToken.h; path = ../FTAccessToken.h; sourceTree = "<group>"; };
+		4F27CB7F19E80242005D9398 /* FTAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTAccessToken.m; path = ../FTAccessToken.m; sourceTree = "<group>"; };
+		4F27CB8119E802AD005D9398 /* FTActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTActivityCell.h; path = ../FTActivityCell.h; sourceTree = "<group>"; };
+		4F27CB8219E802AD005D9398 /* FTActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTActivityCell.m; path = ../FTActivityCell.m; sourceTree = "<group>"; };
+		4F27CB8419E802ED005D9398 /* FTActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTActivityCell.xib; sourceTree = "<group>"; };
+		4F27CB8619E8031A005D9398 /* FTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTDetailViewController.h; path = ../FTDetailViewController.h; sourceTree = "<group>"; };
+		4F27CB8719E8031A005D9398 /* FTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTDetailViewController.m; path = ../FTDetailViewController.m; sourceTree = "<group>"; };
+		4F27CB8919E80386005D9398 /* FTNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTNewsViewController.h; path = ../FTNewsViewController.h; sourceTree = "<group>"; };
+		4F27CB8A19E80386005D9398 /* FTNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTNewsViewController.m; path = ../FTNewsViewController.m; sourceTree = "<group>"; };
+		4F27CB8C19E804AC005D9398 /* FTStartPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTStartPage.h; path = ../FTStartPage.h; sourceTree = "<group>"; };
+		4F27CB8D19E804AC005D9398 /* FTStartPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTStartPage.m; path = ../FTStartPage.m; sourceTree = "<group>"; };
+		4F27CB8F19E804F4005D9398 /* FTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTTableViewCell.h; path = ../FTTableViewCell.h; sourceTree = "<group>"; };
+		4F27CB9019E804F4005D9398 /* FTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTTableViewCell.m; path = ../FTTableViewCell.m; sourceTree = "<group>"; };
+		4F27CB9219E8050F005D9398 /* FTTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTableViewCell.xib; sourceTree = "<group>"; };
+		4F27CB9419E80543005D9398 /* FTJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTJSONParser.h; path = ../FTJSONParser.h; sourceTree = "<group>"; };
+		4F27CB9519E80543005D9398 /* FTJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTJSONParser.m; path = ../FTJSONParser.m; sourceTree = "<group>"; };
+		4F27CB9719E805EA005D9398 /* FTDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTDataManager.h; path = ../FTDataManager.h; sourceTree = "<group>"; };
+		4F27CB9819E805EA005D9398 /* FTDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTDataManager.m; path = ../FTDataManager.m; sourceTree = "<group>"; };
+		4F27CB9A19E8066C005D9398 /* FTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTLoginViewController.h; path = ../FTLoginViewController.h; sourceTree = "<group>"; };
+		4F27CB9B19E8066C005D9398 /* FTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTLoginViewController.m; path = ../FTLoginViewController.m; sourceTree = "<group>"; };
+		4F27CB9D19E806EB005D9398 /* FTServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTServerManager.h; path = ../FTServerManager.h; sourceTree = "<group>"; };
+		4F27CB9E19E806EB005D9398 /* FTServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTServerManager.m; path = ../FTServerManager.m; sourceTree = "<group>"; };
+		4F27CBA219E807A4005D9398 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		4F27CBA319E807A4005D9398 /* start_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_picture.png; sourceTree = "<group>"; };
+		4F27CBA419E807A4005D9398 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		4F27CBA919E8081E005D9398 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4F27CBAB19E80A8A005D9398 /* FTPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTPhoto.h; path = Vkontakte/FTPhoto.h; sourceTree = "<group>"; };
+		4F27CBAC19E80A8A005D9398 /* FTPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTPhoto.m; path = Vkontakte/FTPhoto.m; sourceTree = "<group>"; };
+		4F27CBAE19E80A8B005D9398 /* FTNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTNew.h; path = Vkontakte/FTNew.h; sourceTree = "<group>"; };
+		4F27CBAF19E80A8B005D9398 /* FTNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTNew.m; path = Vkontakte/FTNew.m; sourceTree = "<group>"; };
+		4F27CBB119E80ECD005D9398 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4F27CBB319E81017005D9398 /* Vkontakte-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vkontakte-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		4F27CBB419E810F3005D9398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F27CBB619E81105005D9398 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F27CBB819E81149005D9398 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC4EBC7EF0B97292D39349C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F27CBB919E81149005D9398 /* CoreGraphics.framework in Frameworks */,
+				4F27CBB719E81105005D9398 /* Foundation.framework in Frameworks */,
+				4F27CBB519E810F3005D9398 /* UIKit.framework in Frameworks */,
+				E73ECA5FACA6F1FE2E678269 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +120,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D6A08F71D731026A3732F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8AC382D0FD89D6E3B386AB /* Pods.debug.xcconfig */,
+				CC4EBC7EF0B97292D39349C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1738321CF8AF1DF18A181CB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F27CBB819E81149005D9398 /* CoreGraphics.framework */,
+				4F27CBB619E81105005D9398 /* Foundation.framework */,
+				4F27CBB419E810F3005D9398 /* UIKit.framework */,
+				49955DE2FC935CF49FE38F5F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F27CB4919E801E3005D9398 = {
 			isa = PBXGroup;
 			children = (
 				4F27CB5419E801E3005D9398 /* Vkontakte */,
 				4F27CB6E19E801E4005D9398 /* VkontakteTests */,
 				4F27CB5319E801E3005D9398 /* Products */,
+				07D6A08F71D731026A3732F1 /* Pods */,
+				1738321CF8AF1DF18A181CB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +163,36 @@
 		4F27CB5419E801E3005D9398 /* Vkontakte */ = {
 			isa = PBXGroup;
 			children = (
-				4F27CB5919E801E3005D9398 /* AppDelegate.h */,
-				4F27CB5A19E801E3005D9398 /* AppDelegate.m */,
-				4F27CB5C19E801E3005D9398 /* ViewController.h */,
-				4F27CB5D19E801E3005D9398 /* ViewController.m */,
-				4F27CB5F19E801E3005D9398 /* Main.storyboard */,
+				4F27CBA119E8075B005D9398 /* Images */,
+				4F27CBA019E80738005D9398 /* Models */,
+				4F27CB8119E802AD005D9398 /* FTActivityCell.h */,
+				4F27CB8219E802AD005D9398 /* FTActivityCell.m */,
+				4F27CB8419E802ED005D9398 /* FTActivityCell.xib */,
+				4F27CB7E19E80242005D9398 /* FTAccessToken.h */,
+				4F27CB7F19E80242005D9398 /* FTAccessToken.m */,
+				4F27CB7B19E80202005D9398 /* FTAppDelegate.h */,
+				4F27CB7C19E80202005D9398 /* FTAppDelegate.m */,
+				4F27CB9719E805EA005D9398 /* FTDataManager.h */,
+				4F27CB9819E805EA005D9398 /* FTDataManager.m */,
+				4F27CB8619E8031A005D9398 /* FTDetailViewController.h */,
+				4F27CB8719E8031A005D9398 /* FTDetailViewController.m */,
+				4F27CB9419E80543005D9398 /* FTJSONParser.h */,
+				4F27CB9A19E8066C005D9398 /* FTLoginViewController.h */,
+				4F27CB9B19E8066C005D9398 /* FTLoginViewController.m */,
+				4F27CB9519E80543005D9398 /* FTJSONParser.m */,
+				4F27CB8F19E804F4005D9398 /* FTTableViewCell.h */,
+				4F27CB9019E804F4005D9398 /* FTTableViewCell.m */,
+				4F27CB8A19E80386005D9398 /* FTNewsViewController.m */,
+				4F27CB8919E80386005D9398 /* FTNewsViewController.h */,
+				4F27CB9D19E806EB005D9398 /* FTServerManager.h */,
+				4F27CB9E19E806EB005D9398 /* FTServerManager.m */,
+				4F27CB8C19E804AC005D9398 /* FTStartPage.h */,
+				4F27CB8D19E804AC005D9398 /* FTStartPage.m */,
+				4F27CBB119E80ECD005D9398 /* Main.storyboard */,
+				4F27CB9219E8050F005D9398 /* FTTableViewCell.xib */,
 				4F27CB6219E801E3005D9398 /* Images.xcassets */,
 				4F27CB6419E801E3005D9398 /* LaunchScreen.xib */,
+				4F27CBA819E8081E005D9398 /* Model.xcdatamodeld */,
 				4F27CB5519E801E3005D9398 /* Supporting Files */,
 			);
 			path = Vkontakte;
@@ -96,6 +201,7 @@
 		4F27CB5519E801E3005D9398 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F27CBB319E81017005D9398 /* Vkontakte-prefix.pch */,
 				4F27CB5619E801E3005D9398 /* Info.plist */,
 				4F27CB5719E801E3005D9398 /* main.m */,
 			);
@@ -119,6 +225,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4F27CBA019E80738005D9398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F27CBAE19E80A8B005D9398 /* FTNew.h */,
+				4F27CBAF19E80A8B005D9398 /* FTNew.m */,
+				4F27CBAB19E80A8A005D9398 /* FTPhoto.h */,
+				4F27CBAC19E80A8A005D9398 /* FTPhoto.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4F27CBA119E8075B005D9398 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4F27CBA219E807A4005D9398 /* like.png */,
+				4F27CBA319E807A4005D9398 /* start_picture.png */,
+				4F27CBA419E807A4005D9398 /* placeholder.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F27CB7519E801E4005D9398 /* Build configuration list for PBXNativeTarget "Vkontakte" */;
 			buildPhases = (
+				E8E05D8ABB0A9E390D487F48 /* Check Pods Manifest.lock */,
 				4F27CB4E19E801E3005D9398 /* Sources */,
 				4F27CB4F19E801E3005D9398 /* Frameworks */,
 				4F27CB5019E801E3005D9398 /* Resources */,
+				5B0BB9F8A78341E7B2946BEB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +330,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F27CB6119E801E3005D9398 /* Main.storyboard in Resources */,
+				4F27CB9319E8050F005D9398 /* FTTableViewCell.xib in Resources */,
+				4F27CBA619E807A4005D9398 /* start_picture.png in Resources */,
+				4F27CBA519E807A4005D9398 /* like.png in Resources */,
+				4F27CBB219E80ECD005D9398 /* Main.storyboard in Resources */,
 				4F27CB6619E801E3005D9398 /* LaunchScreen.xib in Resources */,
+				4F27CBA719E807A4005D9398 /* placeholder.png in Resources */,
+				4F27CB8519E802ED005D9398 /* FTActivityCell.xib in Resources */,
 				4F27CB6319E801E3005D9398 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +350,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B0BB9F8A78341E7B2946BEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E05D8ABB0A9E390D487F48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F27CB4E19E801E3005D9398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F27CB5E19E801E3005D9398 /* ViewController.m in Sources */,
-				4F27CB5B19E801E3005D9398 /* AppDelegate.m in Sources */,
+				4F27CB7D19E80202005D9398 /* FTAppDelegate.m in Sources */,
+				4F27CB9119E804F4005D9398 /* FTTableViewCell.m in Sources */,
+				4F27CB9619E80543005D9398 /* FTJSONParser.m in Sources */,
+				4F27CB8E19E804AC005D9398 /* FTStartPage.m in Sources */,
+				4F27CB8B19E80386005D9398 /* FTNewsViewController.m in Sources */,
 				4F27CB5819E801E3005D9398 /* main.m in Sources */,
+				4F27CB8819E8031A005D9398 /* FTDetailViewController.m in Sources */,
+				4F27CB9C19E8066C005D9398 /* FTLoginViewController.m in Sources */,
+				4F27CBAD19E80A8A005D9398 /* FTPhoto.m in Sources */,
+				4F27CBB019E80A8B005D9398 /* FTNew.m in Sources */,
+				4F27CB9F19E806EB005D9398 /* FTServerManager.m in Sources */,
+				4F27CB9919E805EA005D9398 /* FTDataManager.m in Sources */,
+				4F27CB8319E802AD005D9398 /* FTActivityCell.m in Sources */,
+				4F27CBAA19E8081E005D9398 /* Model.xcdatamodeld in Sources */,
+				4F27CB8019E80242005D9398 /* FTAccessToken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F27CB5F19E801E3005D9398 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F27CB6019E801E3005D9398 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F27CB6419E801E3005D9398 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,8 +514,11 @@
 		};
 		4F27CB7619E801E4005D9398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8AC382D0FD89D6E3B386AB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vkontakte-prefix.pch";
 				INFOPLIST_FILE = Vkontakte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +527,11 @@
 		};
 		4F27CB7719E801E4005D9398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4EBC7EF0B97292D39349C9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vkontakte-prefix.pch";
 				INFOPLIST_FILE = Vkontakte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +591,7 @@
 				4F27CB7719E801E4005D9398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F27CB7819E801E4005D9398 /* Build configuration list for PBXNativeTarget "VkontakteTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +600,23 @@
 				4F27CB7A19E801E4005D9398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F27CBA819E8081E005D9398 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F27CBA919E8081E005D9398 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4F27CBA919E8081E005D9398 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4F27CB4A19E801E3005D9398 /* Project object */;
 }

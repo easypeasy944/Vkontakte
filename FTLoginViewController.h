@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTAccessToken.h"
+#import "FTServerManager.h"
+#import "FTDataManager.h"
 
-@interface FTLoginViewController : UIViewController
-
+@interface FTLoginViewController : UIViewController<UIWebViewDelegate, UIAlertViewDelegate>
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) UIActivityIndicatorView* activityView;
+@property (strong, nonatomic) NSURLRequest* request;
 @end

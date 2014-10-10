@@ -1,13 +1,17 @@
 //
-//  Vkontakte-prefix.pch
-//  Vkontakte
+//  Prefix header
 //
-//  Created by Galiev Aynur on 10.10.14.
-//  Copyright (c) 2014 FT. All rights reserved.
+//  The contents of this file are implicitly included at the beginning of every source file.
 //
 
-#ifndef Vkontakte_Vkontakte_prefix_pch
-#define Vkontakte_Vkontakte_prefix_pch
+#import <Availability.h>
 
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
 
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import "CoreData+MagicalRecord.h"
+#import <UIKit/UIKit.h>
 #endif

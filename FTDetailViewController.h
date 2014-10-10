@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTNew.h"
+#import "FTPhoto.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface FTDetailViewController : UIViewController
-
+@property (strong, nonatomic) FTNew* feed;
+- (IBAction)barItem:(id)sender;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollContent;
 @end

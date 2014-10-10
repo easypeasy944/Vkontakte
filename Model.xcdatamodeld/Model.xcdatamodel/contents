@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+    <entity name="FTNew" representedClassName="FTNew" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOnline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="likes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ownerImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="row" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="mainPostImage" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FTPhoto" inverseName="currentNewForMainPost" inverseEntity="FTPhoto" syncable="YES"/>
+        <relationship name="postImages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FTPhoto" inverseName="currentNew" inverseEntity="FTPhoto" syncable="YES"/>
+    </entity>
+    <entity name="FTPhoto" representedClassName="FTPhoto" syncable="YES">
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="currentNew" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FTNew" inverseName="postImages" inverseEntity="FTNew" syncable="YES"/>
+        <relationship name="currentNewForMainPost" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FTNew" inverseName="mainPostImage" inverseEntity="FTNew" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FTNew" positionX="-1739" positionY="-1795" width="128" height="178"/>
+        <element name="FTPhoto" positionX="-1415" positionY="-1809" width="128" height="118"/>
+    </elements>
 </model>

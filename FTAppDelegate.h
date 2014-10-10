@@ -6,8 +6,12 @@
 //  Copyright (c) 2014 FT. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "CoreData+MagicalRecord.h"
+#import "FTDataManager.h"
 
-@interface FTAppDelegate : NSObject
+@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

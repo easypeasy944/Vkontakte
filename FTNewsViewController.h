@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTTableViewCell.h"
+#import "FTNew.h"
+#import "FTServerManager.h"
+#import "FTDataManager.h"
+#import "UIImageView+AFNetworking.h"
+#import "FTPhoto.h"
+#import "FTLoginViewController.h"
+#import "FTDetailViewController.h"
+#import "FTActivityCell.h"
 
-@interface FTNewsViewController : UIViewController
+
+@interface FTNewsViewController : UITableViewController
+- (IBAction)goBack:(id)sender;
+
 
 @end

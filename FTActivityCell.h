@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FTActivityCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UILabel *updateLabel;
 @end
