@@ -98,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kdz-M8-zCo">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="kdz-M8-zCo">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kdz-M8-zCo" id="Rpg-Ff-mYf">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -122,14 +122,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </refreshControl>
                     <connections>
-                        <segue destination="blM-td-4FY" kind="modal" identifier="SHOW_DETAIL" modalTransitionStyle="flipHorizontal" id="59b-N3-83t"/>
+                        <segue destination="blM-td-4FY" kind="push" identifier="SHOW_DETAIL" id="59b-N3-83t"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch7-rE-6tw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2164" y="123"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Подробнее-->
         <scene sceneID="rTM-Ss-DZ6">
             <objects>
                 <viewController id="blM-td-4FY" customClass="FTDetailViewController" sceneMemberID="viewController">
@@ -138,37 +138,22 @@
                         <viewControllerLayoutGuide type="bottom" id="xV9-W3-cXm"/>
                     </layoutGuides>
                     <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="LaO-u3-WDu">
-                        <rect key="frame" x="0.0" y="94" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Dw-LB-lfz">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                             </scrollView>
-                            <navigationBar autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-He-KXu">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Подробнее" id="3Ww-Bb-0nZ">
-                                        <barButtonItem key="leftBarButtonItem" tag="10" systemItem="cancel" id="Xgl-lU-aLe">
-                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <connections>
-                                                <action selector="barItem:" destination="blM-td-4FY" id="3OB-Wx-Y3Q"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Ofi-He-KXu" secondAttribute="trailing" id="0Fq-Tp-N7K"/>
-                            <constraint firstItem="Ofi-He-KXu" firstAttribute="top" secondItem="W3S-46-tGw" secondAttribute="bottom" id="0GY-jD-s5E"/>
-                            <constraint firstItem="Ofi-He-KXu" firstAttribute="leading" secondItem="LaO-u3-WDu" secondAttribute="leading" id="CoT-8U-NtW"/>
-                            <constraint firstItem="9Dw-LB-lfz" firstAttribute="top" secondItem="Ofi-He-KXu" secondAttribute="bottom" id="Mfk-rF-fEI"/>
+                            <constraint firstItem="9Dw-LB-lfz" firstAttribute="top" secondItem="W3S-46-tGw" secondAttribute="bottom" id="309-hH-hEV"/>
                             <constraint firstItem="xV9-W3-cXm" firstAttribute="top" secondItem="9Dw-LB-lfz" secondAttribute="bottom" id="bpl-wY-yJ4"/>
                             <constraint firstAttribute="trailing" secondItem="9Dw-LB-lfz" secondAttribute="trailing" id="gNz-ju-1f7"/>
                             <constraint firstItem="9Dw-LB-lfz" firstAttribute="leading" secondItem="LaO-u3-WDu" secondAttribute="leading" id="hEe-H5-O7f"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Подробнее" id="3XW-Fz-cyX"/>
                     <connections>
                         <outlet property="scrollContent" destination="9Dw-LB-lfz" id="yEq-95-FXg"/>
                     </connections>

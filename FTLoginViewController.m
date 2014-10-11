@@ -8,10 +8,7 @@
 
 
 #import "FTLoginViewController.h"
-typedef void (^CompletionBlock)();
-@interface FTLoginViewController ()
-@property (copy, nonatomic) CompletionBlock block;
-@end
+
 
 @implementation FTLoginViewController
 
@@ -35,6 +32,10 @@ typedef void (^CompletionBlock)();
     
 }
 
+-(BOOL) prefersStatusBarHidden
+{
+    return YES;
+}
 
 -(void) viewDidAppear:(BOOL)animated
 {

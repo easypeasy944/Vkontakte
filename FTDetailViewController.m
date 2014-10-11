@@ -16,11 +16,18 @@
 
 @implementation FTDetailViewController
 
+
+-(BOOL) prefersStatusBarHidden
+{
+    return YES;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.likeImage = [UIImage imageNamed:@"like.png"];
     self.placeholder = [UIImage imageNamed:@"placeholder.png"];
-    UINavigationBar* navBar = [self.view.subviews objectAtIndex:1];
+    UINavigationBar* navBar = self.navigationController.navigationBar;
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName,nil]
+                                                                                            forState:UIControlStateNormal];
     navBar.barTintColor = [UIColor colorWithRed:((float)((0x067AB5 & 0xFF0000) >> 16))/255.0 green:((float)((0x067AB5 & 0xFF00) >> 8))/255.0 blue:((float)(0x067AB5 & 0xFF))/255.0 alpha:1.0];
     [navBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blueColor], NSForegroundColorAttributeName, nil]];
     self.scrollContent.scrollEnabled  = YES;
@@ -458,13 +465,6 @@
     postText.text = self.feed.postText;
     likesImage.image = self.likeImage;
     [self.scrollContent layoutIfNeeded];
-}
-
-
-
--(void) back
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

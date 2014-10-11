@@ -85,6 +85,10 @@ typedef enum
     return 1;
 }
 
+-(BOOL) prefersStatusBarHidden
+{
+    return YES;
+}
 
 -(void) getNewsWithIdentifier:(DownloadID) identifier
 {

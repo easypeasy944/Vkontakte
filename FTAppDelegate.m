@@ -13,6 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [MagicalRecord setupCoreDataStackWithStoreNamed:@"Model.xcdatamodeld"];
     [[FTDataManager sharedManager] clearSession];
     return YES;
@@ -43,7 +44,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    [MagicalRecord cleanUp];
+
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
